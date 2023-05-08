@@ -1,0 +1,30 @@
+.hero-section > * {
+    color: #FFF;
+}
+
+.hero-section {
+    background: #043873;
+    height: 792px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 140px 220px;
+    width: 100%
+}
+
+.hero-section > div {
+    flex: 50%;
+}
+
+.hero-img {
+    width: 10%;
+}
+
+.hero-img > img {
+    object-fit: cover;
+    max-width: 600px;
+}
+
+
+
+
+
