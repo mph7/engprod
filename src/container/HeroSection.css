@@ -1,0 +1,52 @@
+.hero-section > * {
+    color: #fff;
+}
+
+.hero-section {
+    background: #043873;
+    height: 792px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 140px 220px 140px 160px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section > div {
+    flex: 50%;
+}
+
+.hero-heading-h1 {
+    margin-bottom: 24px;
+}
+
+.hero-heading-text-block {
+    margin-bottom: 60px;
+}
+
+.know-more-btn {
+    width: 150px;
+    height: 62px;
+    border-radius: 8px;
+    background: #4F9CF9;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero-img {
+    z-index: 5;
+}
+
+.hero-img > img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.hero-background-vector {
+    position: absolute;
+    left: 0;
+}
