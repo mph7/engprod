@@ -14,10 +14,10 @@ const HeroSection = () => {
         </button>
       </div>
       <div className="hero-img">
-        <img src="/public/images/hero-img.png" alt="hero-image"/>
+        <img src="./images/hero-img.png" alt="hero-image"/>
       </div>
       <div className="hero-background-vector">
-        <img src='/public/assets/element.svg' alt="background vector"></img>
+        <img src='./assets/element.svg' alt="background vector"></img>
       </div>
     </div>
   );
