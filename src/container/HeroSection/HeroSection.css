@@ -38,23 +38,6 @@
     margin-bottom: 60px;
 }
 
-.know-more-btn {
-    align-items: center;
-    background: #4F9CF9FF;
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex;
-    height: 62px;
-    justify-content: center;
-    position: relative;
-    width: 150px;
-    z-index: 5;
-}
-
-.know-more-btn > img {
-    margin-left: 10px;
-}
-
 .hero-img {
     z-index: 5;
 }
@@ -76,7 +59,7 @@
         display: flex;
         flex-direction: column;
         height: 100%;
-        padding: 5vh 10vw;
+        padding: 5vh    10vw;
     }
 
     .hero-heading-h1 {

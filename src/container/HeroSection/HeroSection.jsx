@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeroSection.css'
+import Button from "../../components/Button/Button.jsx";
 
 const HeroSection = () => {
   return (
@@ -8,10 +9,7 @@ const HeroSection = () => {
         <h1 className="hero-heading-h1">Engenharia de Produção</h1>
         <p className="hero-heading-text-block">Descubra como a Engenharia de Produção pode transformar negócios, processos e até mesmo o mundo à sua volta.
         </p>
-        <button className="know-more-btn">
-          Saiba Mais
-          <img src="assets/km-arrow.svg" alt="know more arrow"/>
-        </button>
+        <Button text={'Saiba Mais'} href={'#what-is'}></Button>
       </div>
       <div className="hero-img">
         <img src="./images/hero-img.png" alt="hero-image"/>

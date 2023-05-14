@@ -4,6 +4,10 @@
     overflow-x: hidden;
 }
 
-button {
+a, button {
     all: unset;
+}
+
+html {
+    scroll-behavior: smooth;
 }
