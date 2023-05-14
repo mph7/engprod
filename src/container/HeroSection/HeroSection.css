@@ -1,26 +1,27 @@
 .hero-background-vector {
-    position: absolute;
     left: 0;
+    position: absolute;
     width: 100vw;
     z-index: 0;
 }
+
 .hero-background-vector > img {
     width: 100vw;
 }
 
 .hero-section > * {
-    color: #fff;
+    color: #FFF;
 }
 
 .hero-section {
-    height: 792px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 80px 220px 140px 160px;
-    width: 100%;
-    justify-content: center;
     align-items: center;
     background: #043873;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 792px;
+    justify-content: center;
+    padding: 20vh 10vw;
+    width: 100%;
     z-index: -10;
 }
 
@@ -38,14 +39,15 @@
 }
 
 .know-more-btn {
-    width: 150px;
-    height: 62px;
-    border-radius: 8px;
-    background: #4F9CF9FF;
-    display: flex;
     align-items: center;
+    background: #4F9CF9FF;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    height: 62px;
     justify-content: center;
     position: relative;
+    width: 150px;
     z-index: 5;
 }
 
@@ -62,3 +64,40 @@
     width: 100%;
 }
 
+@media only screen and (max-width: 1000px) {
+    .hero-heading-h1 {
+        font-size: 3rem
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+    }
+
+    .hero-heading-h1 {
+        font-size: 4rem
+    }
+
+    .hero-heading {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .hero-image {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .hero-heading-h1 {
+        font-size: 3em
+    }
+}
