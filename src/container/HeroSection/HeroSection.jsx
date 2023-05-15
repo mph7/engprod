@@ -12,7 +12,7 @@ const HeroSection = () => {
         <Button text={'Saiba Mais'} href={'#what-is'}></Button>
       </div>
       <div className="hero-img">
-        <img src="./images/hero-img.png" alt="hero-image"/>
+        <img src="./images/hero-img.png" alt="hero-image" className="hero-image"/>
       </div>
       <div className="hero-background-vector">
         <img src='./assets/element.svg' alt="background vector"></img>
