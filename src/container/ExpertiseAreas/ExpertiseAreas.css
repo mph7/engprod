@@ -9,13 +9,15 @@
 }
 
 .expertise-background {
+    max-height: 100%;
+    max-width: 100%;
     position: absolute;
     z-index: 0;
-    max-height: 100%;
 }
 
 .expertise-areas > h1 {
     padding-top: 81px;
+    text-align: center;
 }
 
 .expertise-grid {
@@ -51,4 +53,31 @@
 
 .expertise-grid > .expertise-item:nth-child(6) {
     grid-area: f;
+}
+
+@media only screen and (max-width: 1150px) {
+    .expertise-grid {
+        grid-template-areas: "a b c"
+                             "d e f";
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .expertise-grid {
+        grid-template-areas: "a b"
+                             "c d"
+                             "e f";
+
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .expertise-grid {
+        grid-template-areas: "a"
+                             "b"
+                             "c"
+                             "d"
+                             "e"
+                             "f";
+    }
 }
