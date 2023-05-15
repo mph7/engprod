@@ -1,0 +1,54 @@
+.expertise-areas {
+    align-items: center;
+    background: #043873;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    z-index: 3;
+}
+
+.expertise-background {
+    position: absolute;
+    z-index: 0;
+    max-height: 100%;
+}
+
+.expertise-areas > h1 {
+    padding-top: 81px;
+}
+
+.expertise-grid {
+    display: grid;
+    gap: 107px;
+    grid-template-areas: "a b c e f"
+                         ". b d e .";
+    margin: 80px 70px 50px;
+    row-gap: 120px;
+}
+
+.expertise-grid > .expertise-item:nth-child(1) {
+    grid-area: a;
+}
+
+.expertise-grid > .expertise-item:nth-child(2) {
+    align-self: center;
+    grid-area: b;
+}
+
+.expertise-grid > .expertise-item:nth-child(3) {
+    grid-area: c;
+}
+
+.expertise-grid > .expertise-item:nth-child(4) {
+    grid-area: d;
+}
+
+.expertise-grid > .expertise-item:nth-child(5) {
+    align-self: center;
+    grid-area: e;
+}
+
+.expertise-grid > .expertise-item:nth-child(6) {
+    grid-area: f;
+}

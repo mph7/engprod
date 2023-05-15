@@ -15,7 +15,7 @@ const WhatIs = () => {
                       isImgLeft={true}
                       p={'É responsável por analisar e projetar sistemas produtivos, levando em consideração aspectos como a capacidade de produção, a distribuição de recursos, o planejamento da produção, a gestão da cadeia de suprimentos, a logística, o controle de qualidade e a segurança no trabalho. Eles também lidam com questões relacionadas à gestão de pessoas, ao desenvolvimento de estratégias de negócios e à tomada de decisões em dados.'}
                       imageSrc={'./images/what-is-img2.svg'}
-                      button={<Button text={'Áreas de atuação'} href={'#areas-de-atuacao'}></Button>}
+                      button={<Button text={'Áreas de atuação'} href={'#expertise-areas'}></Button>}
                       smallerImage={true}></DividedTextImage>
   </div> );
 };
