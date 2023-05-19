@@ -1,42 +1,86 @@
 .instagram-card {
+    background: white;
     border: 3px solid black;
     border-radius: 30px;
-    width: 350px;
-    background: white;
     margin: 0 auto 30%;
+    width: 350px;
 }
 
 .instagram-card-top {
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 8px;
     padding: 10px 10px 10px 20px;
 }
 
 .account-image img {
-    width: 32px;
-    min-width: 32px;
-    border-radius: 50%;
     border: 1px solid black;
+    border-radius: 50%;
+    min-width: 32px;
+    width: 32px;
     z-index: 1;
 }
 
 .account-name {
-    font-weight: 500;
     font-size: 0.7rem;
+    font-weight: 500;
     overflow: visible;
 }
 
 .instagram-card-image img {
-    width: 100%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
     min-height: 250px;
     object-fit: cover;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    width: 100%;
 }
 
 .instagram-card-bottom {
     display: flex;
-    padding: 10px 20px;
     gap: 20px;
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .instagram-card-top {
+        gap: 0;
+        padding: 10px 0 10px 10px;
+    }
+
+    .account-name {
+        font-size: 0.6rem;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .account-name {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .instagram-card {
+    }
+
+    .account-name {
+        font-size: 0.6rem;
+        margin-left: 0;
+    }
+
+    .instagram-card-top {
+        padding: 12px 0 8px 2px;
+    }
+
+    .account-image img {
+        min-width: 24px;
+        width: 24px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .account-name {
+        font-size: 0.55rem;
+        margin-left: auto;
+    }
 }

@@ -15,6 +15,8 @@
     margin: 2% auto;
 }
 
+
+
 .left-divided-image {
     flex-direction: row-reverse;
 }
@@ -49,6 +51,16 @@
     height: 120%;
     object-fit: cover;
     padding: 0 2vw;
+}
+
+@media only screen and (max-width: 1024px) {
+    .divided-h1 {
+        font-size: 2.9rem
+    }
+
+    .divided-instagram-post {
+        margin: 2.5% auto;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -87,5 +99,14 @@
     .divided-p {
         font-size: 16px;
         line-height: 24px;
+    }
+    .divided-instagram-post {
+        margin: 9% auto;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .divided-instagram-post {
+        width: 90%;
     }
 }
