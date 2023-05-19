@@ -1,0 +1,13 @@
+.instagram-images {
+    display: flex;
+    position: relative;
+    overflow: visible;
+    max-width: 100%;
+}
+
+.instagram-images .instagram-card:last-child {
+    position: relative;
+    left: -45px;
+    overflow: clip;
+    bottom: -30%;
+}

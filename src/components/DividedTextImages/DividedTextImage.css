@@ -7,6 +7,12 @@
     justify-content: center;
     margin: 8% auto;
     width: 80%;
+    height: 100%;
+    overflow: visible;
+}
+
+.divided-instagram-post {
+    margin: 2% auto;
 }
 
 .left-divided-image {
@@ -36,6 +42,7 @@
     display: flex;
     flex: 50%;
     width: 50%;
+    overflow: visible;
 }
 
 .divided-image {
