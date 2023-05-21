@@ -1,14 +1,14 @@
 .testimonial-card {
-    border: 1px solid black;
     background: #FFFFFF;
+    border: 1px solid black;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 60px;
     height: 100%;
     justify-content: space-between;
-    padding: 60px 40px;
     margin: auto 15px;
+    padding: 60px 40px;
 }
 
 .testimonial {
@@ -32,7 +32,35 @@
 .testimonial-image {
     border: 1px solid black;
     border-radius: 50%;
+    height: 8vw;
     object-fit: cover;
     width: 8vw;
-    height: 8vw;
+}
+
+@media only screen and (max-width: 1150px) {
+    .testimonial-image {
+        height: 16vw;
+        width: 16vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .testimonial-image {
+        height: 30vw;
+        width: 30vw;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .testimonial-image {
+        height: 25vw;
+        width: 25vw;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .testimonial-name {
+        font-size: 1.1rem;
+    }
 }

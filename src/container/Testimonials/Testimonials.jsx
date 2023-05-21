@@ -19,7 +19,7 @@ const Testimonials = () => {
     
     <swiper-container
       slides-per-view={width >= 1150 ? '3.1' : width >= 768 ? '2.1' : 1.05}
-      mousewheel-force-to-axis="true"
+      css-mode="true"
       pagination="true"
       speed="500"
     >
