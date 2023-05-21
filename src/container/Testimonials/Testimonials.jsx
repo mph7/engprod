@@ -18,7 +18,7 @@ const Testimonials = () => {
     <h1>Trajetórias de Sucesso: Sobre Alunos e Egressos</h1>
     
     <swiper-container
-      slides-per-view={width >= 1150 ? '3.1' : width >= 768 ? '2.1' : 1.05}
+      slides-per-view={width >= 1150 ? '3.1' : width >= 768 ? '2.1' : '1.1'}
       css-mode="true"
       pagination="true"
       speed="500"
