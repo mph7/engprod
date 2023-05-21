@@ -1,0 +1,38 @@
+.testimonial-card {
+    border: 1px solid black;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    height: 100%;
+    justify-content: space-between;
+    padding: 60px 40px;
+    margin: auto 15px;
+}
+
+.testimonial {
+    margin: 32px 0 32px
+}
+
+.divider {
+    background: black;
+    height: 1px;
+    width: 100%;
+}
+
+.testimonial-bottom {
+    display: flex;
+}
+
+.testimonial-bottom > * {
+    flex: 1;
+}
+
+.testimonial-image {
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 8vw;
+    height: 8vw;
+}

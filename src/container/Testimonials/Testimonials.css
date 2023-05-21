@@ -1,0 +1,21 @@
+.testimonials {
+    padding : 47px 0;
+    background: #043873;
+}
+
+.testimonials > h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.testimonials-cards {
+    align-items: center;
+    display: flex;
+    gap: 32px;
+}
+
+.testimonials-cards > * {
+    flex: 1;
+}
