@@ -19,3 +19,7 @@
 .testimonials-cards > * {
     flex: 1;
 }
+
+.splide__slide, .splide__slide * {
+    overflow: visible;
+}
