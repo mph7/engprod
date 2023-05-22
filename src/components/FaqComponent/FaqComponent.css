@@ -1,0 +1,59 @@
+.faq-component {
+    border: 2px grey solid;
+    border-bottom: 0;
+    padding: 15px;
+}
+
+.faq-component:first-child {
+    border-radius: 15px 15px 0 0;
+}
+
+.faq-component:last-child {
+    border: 2px grey solid;
+    border-radius: 0 0 15px 15px;
+}
+
+.question-container {
+    margin-bottom: 15px;
+}
+
+.answer-accordion {
+    max-height: 0;
+    transition: max-height 0.5s;
+    transition-delay: 0s;
+    white-space: pre-wrap;
+}
+
+.open {
+    max-height: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    .open {
+        max-height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .open {
+        max-height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .open {
+        max-height: 1500px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .open {
+        max-height: 1700px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .open {
+        max-height: 2400px;
+    }
+}

@@ -1,0 +1,18 @@
+.faq-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin: 8vw;
+}
+
+.faq-h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .faq-h1 {
+        font-size: 3rem;
+    }
+}
