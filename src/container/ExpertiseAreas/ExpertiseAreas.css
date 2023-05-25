@@ -4,7 +4,6 @@
     color: white;
     display: flex;
     flex-direction: column;
-
     z-index: 3;
 }
 
@@ -68,6 +67,9 @@
                              "c d"
                              "e f";
 
+    }
+    .expertise-areas > h1 {
+        font-size: 2.5rem;
     }
 }
 

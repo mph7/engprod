@@ -67,6 +67,10 @@
     .divided-text-image {
         flex-direction: column;
         text-align: center;
+        gap: 20px;
+    }
+    .divided-text-image > a > .button {
+        margin: 0;
     }
 
     .text-content {

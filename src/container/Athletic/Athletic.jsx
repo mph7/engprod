@@ -10,6 +10,7 @@ const Athletic = () => {
       <DividedTextImage
         h1={'Atlética Improdutivos!'}
         p={'A Associação Atlética Acadêmica da Engenharia de Produção UniFSP foi criada com o objetivo de integrar os alunos do curso por meio de atividades esportivas e de lazer.'}
+        isButtonBelowImage={true}
         image={<InstagramImages
           post1={instagramPosts.athletic[0]}
           post2={instagramPosts.athletic[1]}

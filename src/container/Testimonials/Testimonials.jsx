@@ -20,7 +20,7 @@ const Testimonials = () => {
       naturalSlideWidth={100}
       isIntrinsicHeight={true}
       totalSlides={4}
-      visibleSlides={width >= 1150 ? '3.1' : width >= 768 ? '2.1' : 1.05}
+      visibleSlides={width > 1150 ? '3.1' : width > 768 ? '2.1' : 1.05}
     >
       <Slider>
         <Slide index={0}>

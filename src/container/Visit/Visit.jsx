@@ -10,6 +10,7 @@ const Visit = () => {
       <DividedTextImage
         h1={'Visitas técnicas!'}
         p={'Realização de visitas técnicas em diferentes organizações a fim de visualizar seu funcionamento na prática e identificar possíveis áreas de atuação.'}
+        isButtonBelowImage={true}
         image={<InstagramImages
           post1={instagramPosts.visit[0]}
           post2={instagramPosts.visit[1]}

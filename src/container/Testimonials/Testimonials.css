@@ -1,13 +1,13 @@
 .testimonials {
-    padding : 47px 0;
     background: #043873;
+    padding: 47px 0;
 }
 
 .testimonials > h1 {
-    text-align: center;
-    font-size: 50px;
     color: #FFFFFF;
+    font-size: 50px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .testimonials-cards {
@@ -22,4 +22,11 @@
 
 .splide__slide, .splide__slide * {
     overflow: visible;
+}
+
+@media only screen and (max-width: 768px) {
+    .testimonials > h1 {
+        font-size: 2.1rem;
+        margin: 12px;
+    }
 }
