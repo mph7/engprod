@@ -19,9 +19,8 @@
     background: #043873;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 792px;
     justify-content: center;
-    padding: 20vh 10vw;
+    padding: 10vh 10vw;
     width: 100%;
     z-index: -10;
 }

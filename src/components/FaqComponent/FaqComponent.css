@@ -32,6 +32,13 @@
     .open {
         max-height: 1000px;
     }
+    .question {
+        font-size: 1.2rem;
+    }
+
+    .question-container {
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -49,6 +56,14 @@
 @media only screen and (max-width: 376px) {
     .open {
         max-height: 1700px;
+    }
+
+    .question {
+        font-size: 1.1rem;
+    }
+
+    .question-container {
+        margin-bottom: 0;
     }
 }
 

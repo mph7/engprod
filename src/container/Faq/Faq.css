@@ -17,8 +17,14 @@
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 768px) {
     .faq-h1 {
         font-size: 2rem
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .faq-h1 {
+        font-size: 1.5rem;
     }
 }
