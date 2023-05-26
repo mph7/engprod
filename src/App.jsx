@@ -9,6 +9,7 @@ import Week from "./container/Week/Week.jsx";
 import Athletic from "./container/Athletic/Athletic.jsx";
 import Testimonials from "./container/Testimonials/Testimonials.jsx";
 import Faq from "./container/Faq/Faq.jsx";
+import Footer from "./container/Footer/Footer.jsx";
 
 function App() {
   return(
@@ -23,6 +24,7 @@ function App() {
       <Athletic></Athletic>
       <Testimonials></Testimonials>
       <Faq></Faq>
+      <Footer></Footer>
     </>
   )
 }
