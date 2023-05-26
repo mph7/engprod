@@ -19,7 +19,7 @@ const Testimonials = () => {
     <CarouselProvider
       naturalSlideWidth={100}
       isIntrinsicHeight={true}
-      totalSlides={4}
+      totalSlides={5}
       visibleSlides={width > 1150 ? '3.1' : width > 768 ? '2.1' : 1.05}
     >
       <Slider>
@@ -64,6 +64,15 @@ const Testimonials = () => {
             name={'Wilson Pontes de Almeida'}
             term={'Egresso da 7ª Turma'}
             company={'Ki-Kakau - Comprador de Embalagens'}
+          ></TestimonialCard>
+        </Slide>
+        <Slide index={4}>
+          <TestimonialCard
+            testimonial={'Escolhi a engenharia de produção porque me abriu diversas portas no mercado de trabalho e me possibilitou trabalhar com aquilo que amo liderança e desenvolvimento de pessoas.'}
+            image={'./images/testimonial-flavia.jpg'}
+            name={'Flavia Carvalho'}
+            term={'Egressa da 3ª Turma'}
+            company={'Bayer - Supervisora de Produção'}
           ></TestimonialCard>
         </Slide>
       </Slider>
