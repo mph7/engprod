@@ -11,7 +11,8 @@
 }
 
 .testimonial {
-    margin: 32px 0 32px
+    margin: 32px 0 32px;
+    white-space: pre-line
 }
 
 .divider {
