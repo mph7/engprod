@@ -19,7 +19,7 @@ const Testimonials = () => {
     <CarouselProvider
       naturalSlideWidth={100}
       isIntrinsicHeight={true}
-      totalSlides={6}
+      totalSlides={7}
       visibleSlides={width > 1150 ? '3.1' : width > 768 ? '2.1' : 1.05}
     >
       <Slider>
@@ -34,6 +34,15 @@ const Testimonials = () => {
         </Slide>
         <Slide index={1}>
           <TestimonialCard
+            testimonial={'Escolhi a Engenharia de Produção porque é uma área abrangente, capaz de atuar em vários segmentos, e o engenheiro de produção é profissional muito importante dentro de uma empresa pois é capaz de resolver diversas adversidades.'}
+            image={'./images/testimonial-yasmin.jpg'}
+            name={'Yasmin Brizolla Viecco'}
+            term={'Aluna do 5º Termo'}
+            company={'Kikakau - Estagiária de Produção e Qualidade'}
+          ></TestimonialCard>
+        </Slide>
+        <Slide index={2}>
+          <TestimonialCard
             testimonial={'Engenharia de Produção para mim é uma área multidisciplinar com o objetivo principal de otimizar processos produtivos, maximizar a eficiência e qualidade dos produtos e serviços, e reduzir custos e impactos ambientais.'}
             image={'./images/testimonial-gabriel.jpg'}
             name={'Gabriel Secler Acosta'}
@@ -41,7 +50,7 @@ const Testimonials = () => {
             company={'ECR Engenharia - Auxiliar Técnico'}
           ></TestimonialCard>
         </Slide>
-        <Slide index={2}>
+        <Slide index={3}>
           <TestimonialCard
             testimonial={'Escolhi a Engenharia de Produção porque como líder preciso conhecer ferramentas para fazer com que meus processos  sejam muito mais eficazes. \nTemos muitas ferramentas para todos os tipos de cenários dentro de uma indústria, desde setor de compras, controle de estoque, abastecimento, logística, produção, marketing, expedição…\n' +
               'A engenharia de produção nos ensina a resolver problemas de uma maneira muito muito mais fácil, pois estamos enxergando o problema e já pensando qual ferramenta usar e sempre é resolvido da melhor maneira,  muitas vezes sem nenhum custo para empresa.\n'}
@@ -51,7 +60,7 @@ const Testimonials = () => {
             company={'Landi Turbina - Líder de Produção'}
           ></TestimonialCard>
         </Slide>
-        <Slide index={3}>
+        <Slide index={4}>
           <TestimonialCard
             testimonial={'Engenharia de Produção para mim é muito mais do que um curso de graduação ' +
               'geralmente destinado a setores industriais e prestadores de serviços, é uma completa adaptação do ' +
@@ -66,7 +75,7 @@ const Testimonials = () => {
             company={'Ki-Kakau - Comprador de Embalagens'}
           ></TestimonialCard>
         </Slide>
-        <Slide index={4}>
+        <Slide index={5}>
           <TestimonialCard
             testimonial={'Escolhi a Engenharia de Produção porque me abriu diversas portas no mercado de trabalho e me possibilitou trabalhar com aquilo que amo liderança e desenvolvimento de pessoas.'}
             image={'./images/testimonial-flavia.jpg'}
@@ -75,7 +84,7 @@ const Testimonials = () => {
             company={'Bayer - Supervisora de Produção'}
           ></TestimonialCard>
         </Slide>
-        <Slide index={5}>
+        <Slide index={6}>
           <TestimonialCard
             testimonial={'Eu escolhi a Engenharia de Produção, pois o curso proporciona uma série de áreas de atuação, que vão desde a área de operações e processos de produção, logística, engenharia econômica e engenharia do trabalho, até prestação de serviços de consultoria e análises; envolvendo também conceitos de humanas, comunicação, gestão de pessoas e administrativa.\n' +
               'Por ser abrangente e com possibilidade de atuação em diferentes áreas, os profissionais possuem boas chances de conquistar uma vaga no mercado de trabalho \n' +
@@ -86,6 +95,7 @@ const Testimonials = () => {
             company={'Alispec - Analista de Logística'}
           ></TestimonialCard>
         </Slide>
+        
       </Slider>
     </CarouselProvider>
   </div> )
