@@ -25,10 +25,10 @@ const Faq = () => {
   return ( <div className="faq-section">
     <h1 className="faq-h1">Perguntas Frequentes</h1>
     <div className="faq-questions">
-      {faqData.map((data, i) => {
+      {faqData.map((data) => {
         return <FaqComponent question={data.question}
                              answer={data.answer}
-                             key={i}>
+                             key={data.question}>
         </FaqComponent>;
       })}
     </div>

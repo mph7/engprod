@@ -60,9 +60,6 @@
 }
 
 @media only screen and (max-width: 426px) {
-    .instagram-card {
-    }
-
     .account-name {
         font-size: 0.6rem;
         margin-left: 0;

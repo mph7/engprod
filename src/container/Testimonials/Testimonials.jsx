@@ -13,6 +13,14 @@ const Testimonials = () => {
     setWidth(Math.max(document.documentElement.clientWidth, window.innerWidth || 0));
   });
   
+  const getVisibleSlidesNumber = () => {
+    if (width > 1150)
+      return '3.1';
+    else if (width > 768)
+      return '2.1';
+    return '1.05';
+  };
+  
   return ( <div className="testimonials">
     <h1>Trajetórias de Sucesso: Sobre Alunos e Egressos</h1>
     
@@ -20,7 +28,7 @@ const Testimonials = () => {
       naturalSlideWidth={100}
       isIntrinsicHeight={true}
       totalSlides={7}
-      visibleSlides={width > 1150 ? '3.1' : width > 768 ? '2.1' : 1.05}
+      visibleSlides={getVisibleSlidesNumber()}
     >
       <Slider>
         <Slide index={0}>
@@ -95,7 +103,7 @@ const Testimonials = () => {
             company={'Alispec - Analista de Logística'}
           ></TestimonialCard>
         </Slide>
-        
+      
       </Slider>
     </CarouselProvider>
   </div> )
