@@ -10,23 +10,23 @@ import Athletic from "./container/Athletic/Athletic.jsx";
 import Testimonials from "./container/Testimonials/Testimonials.jsx";
 import Faq from "./container/Faq/Faq.jsx";
 import Footer from "./container/Footer/Footer.jsx";
+import DifferentLessons from "./container/DifferentClasses/DifferentLessons.jsx";
 
 function App() {
-  return(
-    <>
-      <PageHeader></PageHeader>
-      <HeroSection></HeroSection>
-      <WhatIs></WhatIs>
-      <ExpertiseAreas></ExpertiseAreas>
-      <Activities></Activities>
-      <Visit></Visit>
-      <Week></Week>
-      <Athletic></Athletic>
-      <Testimonials></Testimonials>
-      <Faq></Faq>
-      <Footer></Footer>
-    </>
-  )
+    return (<>
+            <PageHeader></PageHeader>
+            <HeroSection></HeroSection>
+            <WhatIs></WhatIs>
+            <ExpertiseAreas></ExpertiseAreas>
+            <Activities></Activities>
+            <DifferentLessons></DifferentLessons>
+            <Visit></Visit>
+            <Week></Week>
+            <Athletic></Athletic>
+            <Testimonials></Testimonials>
+            <Faq></Faq>
+            <Footer></Footer>
+        </>)
 }
 
 export default App

@@ -9,7 +9,6 @@ const Week = () => {
       <DividedTextImage
         h1={'Semana da Engenharia de Produção!'}
         p={'Evento que aborda temas relevantes para Engenharia de Produção em formato de palestras, workshops e visitas técnicas. Ainda, com direito a churrasco no encerramento!'}
-        isImgLeft={true}
         image={<InstagramImages
           post1={instagramPosts.week[0]}
           post2={instagramPosts.week[1]}
