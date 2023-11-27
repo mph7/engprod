@@ -11,7 +11,7 @@ export const instagramPosts = {
   'activities': [ {
     account: accounts.engenhariadeproducao, post: {
       postImage: './images/instagram/activities-1.jpg',
-      postLink: 'https://www.instagram.com/p/Chs5YY4OMVZ/?img_index=1',
+      postLink: 'https://www.instagram.com/p/C0EuNPoOO8i/?igshid=ZDE1MWVjZGVmZQ%3D%3D',
     },
   }, {
     account: accounts.engenhariadeproducao, post: {
@@ -32,11 +32,11 @@ export const instagramPosts = {
     },
   }, {
     account: accounts.engenhariadeproducao, post: {
-      postImage: './images/instagram/week-2.jpg', postLink: 'https://www.instagram.com/p/CkuUPqVuHXN/?img_index=1',
+      postImage: './images/instagram/week-2.jpg', postLink: 'https://www.instagram.com/p/CzgrDRoujIE/?igshid=ZDE1MWVjZGVmZQ==',
     },
   } ], 'athletic': [ {
     account: accounts.atletica, post: {
-      postImage: './images/instagram/athletic-1.webp', postLink: 'https://www.instagram.com/p/CrM1Z7_uYDq/?img_index=1',
+      postImage: './images/instagram/athletic-1.webp', postLink: 'https://www.instagram.com/p/CvuUrDgO4u8/?igshid=ZDE1MWVjZGVmZQ%3D%3D',
     },
   }, {
     account: accounts.atletica, post: {
