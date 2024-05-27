@@ -27,7 +27,7 @@ const Testimonials = () => {
     <CarouselProvider
       naturalSlideWidth={100}
       isIntrinsicHeight={true}
-      totalSlides={7}
+      totalSlides={8}
       visibleSlides={getVisibleSlidesNumber()}
     >
       <Slider>
@@ -46,7 +46,7 @@ const Testimonials = () => {
             image={'./images/testimonial-yasmin.jpg'}
             name={'Yasmin Brizolla Viecco'}
             term={'Aluna do 7º Termo'}
-            company={'Kikakau - Estagiária de Produção e Qualidade'}
+            company={'Analista de PCP - Cooperativa Agroindustrial Holambra'}
           ></TestimonialCard>
         </Slide>
         <Slide index={2}>
@@ -60,6 +60,15 @@ const Testimonials = () => {
         </Slide>
         <Slide index={3}>
           <TestimonialCard
+            testimonial={'Escolhi a Engenharia de Produção por ser uma área focada na gestão e otimização de processos, que exige uma visão analítica. Durante a graduação, aperfeiçoei essa habilidade, tornando-me uma profissional flexível e preparada para aproveitar as inúmeras oportunidades do mercado.'}
+            image={'./images/testimonial-maria.png'}
+            name={'Maria Augusta Ruiz de Souza'}
+            term={'Aluna do 9º termo'}
+            company={'KDT - Estagiária de Engenharia de Processos'}
+          ></TestimonialCard>
+        </Slide>
+        <Slide index={4}>
+          <TestimonialCard
             testimonial={'Escolhi a Engenharia de Produção porque como líder preciso conhecer ferramentas para fazer com que meus processos  sejam muito mais eficazes. \nTemos muitas ferramentas para todos os tipos de cenários dentro de uma indústria, desde setor de compras, controle de estoque, abastecimento, logística, produção, marketing, expedição…\n' +
               'A engenharia de produção nos ensina a resolver problemas de uma maneira muito muito mais fácil, pois estamos enxergando o problema e já pensando qual ferramenta usar e sempre é resolvido da melhor maneira,  muitas vezes sem nenhum custo para empresa.\n'}
             image={'./images/testimonial-joao-paulo.jpg'}
@@ -68,7 +77,7 @@ const Testimonials = () => {
             company={'Landi Turbina - Líder de Produção'}
           ></TestimonialCard>
         </Slide>
-        <Slide index={4}>
+        <Slide index={5}>
           <TestimonialCard
             testimonial={'Engenharia de Produção para mim é muito mais do que um curso de graduação ' +
               'geralmente destinado a setores industriais e prestadores de serviços, é uma completa adaptação do ' +
@@ -83,7 +92,7 @@ const Testimonials = () => {
             company={'Ki-Kakau - Comprador de Embalagens'}
           ></TestimonialCard>
         </Slide>
-        <Slide index={5}>
+        <Slide index={6}>
           <TestimonialCard
             testimonial={'Escolhi a Engenharia de Produção porque me abriu diversas portas no mercado de trabalho e me possibilitou trabalhar com aquilo que amo liderança e desenvolvimento de pessoas.'}
             image={'./images/testimonial-flavia.jpg'}
@@ -92,7 +101,7 @@ const Testimonials = () => {
             company={'Bayer - Supervisora de Produção'}
           ></TestimonialCard>
         </Slide>
-        <Slide index={6}>
+        <Slide index={7}>
           <TestimonialCard
             testimonial={'Eu escolhi a Engenharia de Produção, pois o curso proporciona uma série de áreas de atuação, que vão desde a área de operações e processos de produção, logística, engenharia econômica e engenharia do trabalho, até prestação de serviços de consultoria e análises; envolvendo também conceitos de humanas, comunicação, gestão de pessoas e administrativa.\n' +
               'Por ser abrangente e com possibilidade de atuação em diferentes áreas, os profissionais possuem boas chances de conquistar uma vaga no mercado de trabalho \n' +
