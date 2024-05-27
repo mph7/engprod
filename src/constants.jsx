@@ -24,13 +24,23 @@ export const instagramPosts = {
         },
     }, {
         account: accounts.engenhariadeproducao, post: {
-            postImage: './images/instagram/different-lessons-2.png',
-            postLink: 'https://www.instagram.com/p/CaIAdUKO6mA/?igshid=ZDE1MWVjZGVmZQ==',
+            postImage: './images/instagram/different-lessons-2.jpg',
+            postLink: 'https://www.instagram.com/p/C7DXcU1OFXe/?igsh=bXRmZGV1NzRtaHk1',
+        },
+    }], 'extension': [{
+        account: accounts.engenhariadeproducao, post: {
+            postImage: './images/instagram/extension-1.jpg',
+            postLink: 'https://www.instagram.com/p/Cz3k2b5uxi-/?igsh=eWk5bjg5MDc5aQ==',
+        },
+    }, {
+        account: accounts.engenhariadeproducao, post: {
+            postImage: './images/instagram/extension-2.jpg',
+            postLink: 'https://www.instagram.com/p/C7ZMxFOOPmm/?igsh=MTBseW5mcGxjMTU0aQ==',
         },
     }], 'visit': [{
         account: accounts.engenhariadeproducao, post: {
             postImage: './images/instagram/visit-1.jpg',
-            postLink: 'https://www.instagram.com/p/Cr_4VXCOVoj/?img_index=1',
+            postLink: 'https://www.instagram.com/p/C63tBb3ubeL/?igsh=MTRhYjBydWZwbGt5Zg==',
         },
     }, {
         account: accounts.engenhariadeproducao, post: {

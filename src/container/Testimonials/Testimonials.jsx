@@ -36,7 +36,7 @@ const Testimonials = () => {
             testimonial={'A Engenharia de Produção para mim se define pela palavra oportunidade.'}
             image={'./images/testimonial-fernanda.jpg'}
             name={'Fernanda Costa'}
-            term={'Aluna do 4º termo'}
+            term={'Aluna do 5º termo'}
             company={'Grupo RB - Auxiliar Administrativo'}
           ></TestimonialCard>
         </Slide>
@@ -45,7 +45,7 @@ const Testimonials = () => {
             testimonial={'Escolhi a Engenharia de Produção porque é uma área abrangente, capaz de atuar em vários segmentos, e o engenheiro de produção é profissional muito importante dentro de uma empresa pois é capaz de resolver diversas adversidades.'}
             image={'./images/testimonial-yasmin.jpg'}
             name={'Yasmin Brizolla Viecco'}
-            term={'Aluna do 6º Termo'}
+            term={'Aluna do 7º Termo'}
             company={'Kikakau - Estagiária de Produção e Qualidade'}
           ></TestimonialCard>
         </Slide>
@@ -54,7 +54,7 @@ const Testimonials = () => {
             testimonial={'Engenharia de Produção para mim é uma área multidisciplinar com o objetivo principal de otimizar processos produtivos, maximizar a eficiência e qualidade dos produtos e serviços, e reduzir custos e impactos ambientais.'}
             image={'./images/testimonial-gabriel.jpg'}
             name={'Gabriel Secler Acosta'}
-            term={'Aluno do 8º termo'}
+            term={'Aluno do 9º termo'}
             company={'ECR Engenharia - Auxiliar Técnico'}
           ></TestimonialCard>
         </Slide>
@@ -64,7 +64,7 @@ const Testimonials = () => {
               'A engenharia de produção nos ensina a resolver problemas de uma maneira muito muito mais fácil, pois estamos enxergando o problema e já pensando qual ferramenta usar e sempre é resolvido da melhor maneira,  muitas vezes sem nenhum custo para empresa.\n'}
             image={'./images/testimonial-joao-paulo.jpg'}
             name={'João Paulo Fernandes Martos'}
-            term={'Aluno do 10º termo'}
+            term={'Egresso da 9ª Turma'}
             company={'Landi Turbina - Líder de Produção'}
           ></TestimonialCard>
         </Slide>
